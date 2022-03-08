@@ -1,0 +1,19 @@
+[
+    { "id" : 1,
+      "name" : "Dishes",
+      "image" : "image 1",
+      "motivation" : "motivation1"
+    },
+
+    {   "id" : 2,
+        "name" : "Deserts",
+        "image" : "image 2",
+        "motivation" : "motivation2"
+      },
+
+      { "id" : 3,
+        "name" : "Drinks",
+        "image" : "image 3",
+        "motivation" : "motivation3"
+      }
+]
