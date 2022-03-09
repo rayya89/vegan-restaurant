@@ -1,13 +1,12 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams , Link, useLocation } from 'react-router-dom'
 import categories from '../data/categories.json'
 
 export default function CategoryScreen( ) {
     const params = useParams();
-    console.log(params);
+    const location = useLocation();
 
-    const categoryInfo = categories.filter(category => category.name === params.name);
-    console.log(categoryInfo);
+    const categoryInfo = categories.filter(category => category.name === params.categoryName);
 
   return (
     <div>
@@ -17,8 +16,8 @@ export default function CategoryScreen( ) {
             return (
                 <div key={product.id}>
                     <h2>{product.image}</h2>
-                    <h2>{product.name}</h2>
-                    <p>{product.description}</p>
+                    <Link to={`/product${location.pathname}/${product.name}`}><h2>{product.name}</h2></Link>
+                    <p>{product['short-description']}</p>
                 </div>
             )
         })}

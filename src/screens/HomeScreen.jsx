@@ -14,7 +14,8 @@ export default function HomeScreen() {
                <article>
                <h2>{category.name}</h2>
                <p>{category.motivation}</p>
-               <Link to={`/category/${category.name}`}><button>View menu</button></Link>
+               {/* <Link to={`/category/${category.name}`}><button>View menu</button></Link> */}
+               <Link to={`${category.name}`}><button>View menu</button></Link>
                </article>
              </section>
            ))

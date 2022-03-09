@@ -1,7 +1,9 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import NavigationBar from './components/NavigationBar';
 import HomeScreen from './screens/HomeScreen';
-import CategoryScreen from './screens/CategoryScreen'
+import CategoryScreen from './screens/CategoryScreen';
+import ProductScreen from './screens/ProductScreen';
+
 
 export default function App() {
   return (
@@ -14,7 +16,8 @@ export default function App() {
           <Route path="/deserts" component={dishes}/>
           <Route path="/drinks" component={dishes}/>
           <Route path="/contact" component={dishes}/> */}
-          <Route path="/category/:name" exact element={<CategoryScreen/>}/>
+          <Route path="/:categoryName" element={<CategoryScreen/>}/>
+          <Route path="/product/:categoryName/:productName" element={<ProductScreen/>}/>
         </Routes>
       </div>
     </Router>
