@@ -1,0 +1,103 @@
+[
+    {
+        "category" : "Dishes",
+        "products" : [
+            {
+              "id" : 1,
+              "name" : "dishes product 1",
+              "description" : "description dishes product 1 ",
+              "image" : "dish 1 img",
+              "ingredients" : ["ing1", "ing2", "ing3"]
+            },
+            {
+                "id" : 2,
+                "name" : "dishes product 2",
+                "description" : "description dishes product 2 ",
+                "image" : "dish 2 img",
+                "ingredients" : ["ing1", "ing2", "ing3"]
+            },
+            {
+                "id" : 3,
+                "name" : "dishes product 3",
+                "description" : "description dishes product 3 ",
+                "image" : "dish 3 img",
+                "ingredients" : ["ing1", "ing2", "ing3"]
+            },
+            {
+                "id" : 4,
+                "name" : "dishes product 4",
+                "description" : "description dishes product 4 ",
+                "image" : "dish 4 img",
+                "ingredients" : ["ing1", "ing2", "ing3"]
+              }
+            ]
+    },
+
+    {
+        "category" : "Deserts",
+        "products" : [
+            {
+              "id" : 1,
+              "name" : "deserts product 1",
+              "description" : "description deserts product 1 ",
+              "image" : "desert 1 img",
+              "ingredients" : ["ing1", "ing2", "ing3"]
+            },
+            {
+                "id" : 2,
+                "name" : "deserts product 2",
+                "description" : "description deserts product 2 ",
+                "image" : "desert 2 img",
+                "ingredients" : ["ing1", "ing2", "ing3"]
+            },
+            {
+                "id" : 3,
+                "name" : "deserts product 3",
+                "description" : "description deserts product 3 ",
+                "image" : "desert 3 img",
+                "ingredients" : ["ing1", "ing2", "ing3"]
+            },
+            {
+                "id" : 4,
+                "name" : "deserts product 4",
+                "description" : "description deserts product 4 ",
+                "image" : "desert 4 img",
+                "ingredients" : ["ing1", "ing2", "ing3"]
+              }
+            ]
+    },
+
+    {
+        "category" : "Drinks",
+        "products" : [
+            {
+              "id" : 1,
+              "name" : "drinks product 1",
+              "description" : "description drinks product 1 ",
+              "image" : "drinks 1 img",
+              "ingredients" : ["ing1", "ing2", "ing3"]
+            },
+            {
+                "id" : 2,
+                "name" : "drinks product 2",
+                "description" : "description drinks product 2 ",
+                "image" : "drinks 2 img",
+                "ingredients" : ["ing1", "ing2", "ing3"]
+            },
+            {
+                "id" : 3,
+                "name" : "drinks product 3",
+                "description" : "description drinks product 3 ",
+                "image" : "drinks 3 img",
+                "ingredients" : ["ing1", "ing2", "ing3"]
+            },
+            {
+                "id" : 4,
+                "name" : "drinks product 4",
+                "description" : "description drinks product 4 ",
+                "image" : "drinks 4 img",
+                "ingredients" : ["ing1", "ing2", "ing3"]
+              }
+            ]
+    }
+]

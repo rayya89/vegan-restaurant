@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import categories from '../data/catigories.json'
+import categories from '../data/categories.json'
 
 export default function HomeScreen() {
 
@@ -14,7 +14,7 @@ export default function HomeScreen() {
                <article>
                <h2>{category.name}</h2>
                <p>{category.motivation}</p>
-               <Link to={`/catigory/${category.name}`}><button>View menu</button></Link>
+               <Link to={`/category/${category.name}`}><button>View menu</button></Link>
                </article>
              </section>
            ))
