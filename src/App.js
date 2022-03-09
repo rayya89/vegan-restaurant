@@ -4,6 +4,7 @@ import HomeScreen from './screens/HomeScreen';
 import CategoryScreen from './screens/CategoryScreen';
 import ProductScreen from './screens/ProductScreen';
 import ContactScreen from './screens/ContactScreen';
+import Footer from './components/Footer'
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/product/:categoryName/:productName" element={<ProductScreen/>}/>
           <Route path="/contact" element={<ContactScreen/>}/>
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
