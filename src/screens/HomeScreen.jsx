@@ -7,7 +7,7 @@ export default function HomeScreen() {
   return (
     <div>
         <h1>Vegado</h1>
-        <h3>Come hungry Leave Happy</h3>
+        <h3>Come hungry Leave healthy</h3>
            {categories.map(category => (
              <section key={category.id}>
                <h1>{category.image}</h1>

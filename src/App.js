@@ -3,6 +3,7 @@ import NavigationBar from './components/NavigationBar';
 import HomeScreen from './screens/HomeScreen';
 import CategoryScreen from './screens/CategoryScreen';
 import ProductScreen from './screens/ProductScreen';
+import ContactScreen from './screens/ContactScreen';
 
 
 export default function App() {
@@ -12,12 +13,9 @@ export default function App() {
         <NavigationBar/>
         <Routes>
           <Route path="/" element={<HomeScreen/>}/>
-          {/* <Route path="/dishes" component={Dishes}/>
-          <Route path="/deserts" component={dishes}/>
-          <Route path="/drinks" component={dishes}/>
-          <Route path="/contact" component={dishes}/> */}
           <Route path="/:categoryName" element={<CategoryScreen/>}/>
           <Route path="/product/:categoryName/:productName" element={<ProductScreen/>}/>
+          <Route path="/contact" element={<ContactScreen/>}/>
         </Routes>
       </div>
     </Router>
