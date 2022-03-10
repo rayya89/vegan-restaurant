@@ -1,9 +1,10 @@
 import React from 'react'
+import ownerImg from "../assests/owner.jpg";
 
 export default function ContactScreen() {
   return (
     <div>
-        <h1>Chef img</h1>
+        <img src={ownerImg} alt="the owner of this restaurant"/>
         <article>
             <h2>Opening hours</h2>
             <ul>

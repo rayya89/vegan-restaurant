@@ -1,0 +1,21 @@
+/* Colors */
+:root {
+  --color-primary: var(--swatch-white);
+  --color-secondary: var(--swatch-green);
+  --color-text: var(--swatch-black);
+}
+
+/* Space */
+:root {
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 24px;
+  --space-ultra: 48px;
+}
+
+/* Other */
+:root {
+  --border-radius: 3px;
+}
+
+/* Media Quieris */

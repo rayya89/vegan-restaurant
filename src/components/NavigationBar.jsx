@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assests/logo.png'
+import logo from '../assests/Logo.png'
 import { Link } from 'react-router-dom'
 import categories from '../data/categories.json'
 

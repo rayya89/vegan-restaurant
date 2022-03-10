@@ -12,10 +12,6 @@ export default function Footer() {
     <div>
         <footer>
             <article>
-                <span>Vegano</span>
-                <small>Come hungry Leave healthy</small>
-            </article>
-            <article>
                 <small>Follow us</small>
                 <ul>
                     <li><FontAwesomeIcon icon={faTwitter}/></li>
@@ -25,8 +21,8 @@ export default function Footer() {
             </article>
             <article>
                 <ul>
-                <li><FontAwesomeIcon icon={faMapMarker} /><small>Kemivagn 7A, Gothenburg, Sweden</small></li>
-                <li><FontAwesomeIcon icon={faPhoneSquare}/><small>Contact us 0737786886</small></li>
+                <li><FontAwesomeIcon icon={faMapMarker} /><small>Kemivagn 7A, Gothenburg</small></li>
+                <li><FontAwesomeIcon icon={faPhoneSquare}/><small>0737786886</small></li>
                 </ul>
             </article>
         </footer>
