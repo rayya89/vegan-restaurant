@@ -1,36 +1,34 @@
 import React from 'react'
-import ownerImg from "../assests/owner.jpg";
+import OwnerImage from "../assests/owner.jpg";
+import MapImage from "../assests/map.jpg"
 
 export default function ContactScreen() {
   return (
-    <div>
-        <img src={ownerImg} alt="the owner of this restaurant"/>
-        <article>
-            <h2>Opening hours</h2>
+    <div className='contact-screen'>
+        <img src={OwnerImage} alt="the owner of this restaurant"/>
+        <section>
+            <h3>Opening times</h3>
             <ul>
-                <li>Monday to Friday: 09:00 am - 11:00 pm </li>
-                <li>Saturday: 10:00 am - 08:00 pm </li>
-                <li>Sunday: 10:00 am - 06:00 </li>
+                <li>Mon-Fri: 9:00 am to 11:00 pm </li>
+                <li>Sat, Sun: 10:00 am to 10:00 pm </li>
             </ul>
-        </article>
-        <article>
-            <h2>Book a table</h2>
+        </section>
+        <section>
+            <h3>Book a table</h3>
             <form>
                 <label>Full Name:</label>
                 <input type="text" placeholder='ex: John Doe'/>
                 <label>Email:</label>
                 <input type="email" placeholder='ex: JohnDoe@email.com'/>
-                <label>Date:</label>
-                <input type="date"/>
-                <label>Time:</label>
+                <label>Date and Time:</label>
                 <input type="datetime-local"/>
             </form>
-        </article>
-        <article>
-            <h2>Address</h2>
-            <span>Kemivagen 7A, Gothenburg, Sweden.</span>
-        </article>
-        <h1>map img</h1>
+        </section>
+        <section>
+            <h3>Address</h3>
+            <p>Kemivagen 7A, Gothenburg, Sweden.</p>
+        </section>
+        <img src={MapImage} alt="a map screenshot that shows the location of the restaurant"/>
     </div>
   )
 }

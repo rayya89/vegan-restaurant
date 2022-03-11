@@ -1,0 +1,31 @@
+.contact-screen {
+  padding: var(--space-medium) var(--space-big);
+}
+
+.contact-screen img,
+.contact-screen section {
+  margin-bottom: var(--space-medium);
+}
+
+.contact-screen h3 {
+  margin-bottom: var(--space-small);
+}
+
+.contact-screen ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.contact-screen form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-screen input {
+  margin-left: var(--space-small);
+  width: 160px;
+}
+
+.contact-screen label {
+  color: var(--color-secondary);
+}

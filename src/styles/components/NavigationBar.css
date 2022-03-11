@@ -1,0 +1,15 @@
+nav img {
+  width: 53px;
+}
+
+nav .text-link {
+  color: var(--color-text);
+}
+
+nav .text-link:hover {
+  color: var(--color-secondary);
+}
+
+nav {
+  display: flex;
+}

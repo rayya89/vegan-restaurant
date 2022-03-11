@@ -9,9 +9,9 @@ export default function NavigationBar() {
         <Link to="/"><img src={logo} alt="logo"/></Link>
         <ul>
         {categories.map(category => (
-          <Link to={`${category.name}`}><li key={category.id}>{category.name}</li></Link>
+          <Link className="text-link" to={`${category.name}`}><li key={category.id}>{category.name}</li></Link>
         ))}
-            <Link to="/contact"><li>Contact us</li></Link>
+            <Link className="text-link" to="/contact"><li>Contact us</li></Link>
         </ul>
     </nav>
   )

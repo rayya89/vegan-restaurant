@@ -10,3 +10,13 @@ button {
 button:hover {
   background-color: var(--swatch-green-dark);
 }
+
+.button-secondary {
+  background: none;
+  color: var(--color-secondary);
+  border: none;
+}
+
+.button-secondary:hover {
+  color: var(--swatch-green-dark);
+}

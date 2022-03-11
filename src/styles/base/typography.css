@@ -1,3 +1,10 @@
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
 h1 {
   font-size: 34px;
   line-height: 1.5;
@@ -9,11 +16,12 @@ h2 {
 }
 
 h3 {
-  font-size: 17px;
+  font-size: 19px;
 }
 
-p {
-  font-size: 12px;
+p,
+li {
+  font-size: 14px;
   line-height: 1.6;
 }
 
@@ -23,8 +31,13 @@ small {
 }
 
 label,
-button {
-  font-size: 12px;
+button,
+nav li {
+  font-size: 14px;
   line-height: 1.6;
   font-weight: bold;
+}
+
+.text-link {
+  text-decoration: none;
 }

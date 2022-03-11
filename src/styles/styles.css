@@ -6,5 +6,7 @@
 
 /* Components */
 @import "./components/button.css";
+@import "./components/NavigationBar.css";
 
 /* Screens */
+@import "./screens/ContactScreen.css";
