@@ -12,4 +12,14 @@ nav .text-link:hover {
 
 nav {
   display: flex;
+  justify-content: space-evenly;
+  background-color: var(--swatch-grey);
+  padding: var(--space-small);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 2;
+  align-items: baseline;
 }

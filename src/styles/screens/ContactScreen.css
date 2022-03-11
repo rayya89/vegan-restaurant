@@ -26,6 +26,10 @@
   width: 160px;
 }
 
+.contact-screen input::placeholder {
+  color: var(--swatch-grey);
+}
+
 .contact-screen label {
   color: var(--color-secondary);
 }

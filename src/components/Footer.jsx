@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <div>
         <footer>
-            <article>
+            {/* <article className="social-media">
                 <small>Follow us</small>
                 <ul>
                     <li><FontAwesomeIcon icon={faTwitter}/></li>
@@ -19,12 +19,13 @@ export default function Footer() {
                     <li><FontAwesomeIcon icon={faFacebook}/></li>
                 </ul>
             </article>
-            <article>
+            <article className="contact">
                 <ul>
                 <li><FontAwesomeIcon icon={faMapMarker} /><small>Kemivagn 7A, Gothenburg</small></li>
                 <li><FontAwesomeIcon icon={faPhoneSquare}/><small>0737786886</small></li>
                 </ul>
-            </article>
+            </article> */}
+            <p> &copy; {new Date().getFullYear()} &bull; Raya Altarabulsi  </p>
         </footer>
     </div>
   )

@@ -1,0 +1,28 @@
+footer {
+  background-color: var(--swatch-black);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p {
+  color: var(--color-primary);
+}
+/* footer article {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  justify-content: center;
+}
+
+.social-media ul {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-flow: row;
+}
+
+.contact {
+  justify-self: center;
+} */

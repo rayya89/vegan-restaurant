@@ -1,7 +1,7 @@
 [
     { "id" : 1,
       "name" : "Dishes",
-      "image" : "image 1",
+      "image" : "assets/dishes.jpg",
       "motivation" : "Our tasty vegan dishes are full of nutritious, fresh ingredients that will make your day!",
       "products" : [
         {
@@ -81,7 +81,7 @@
 
     {   "id" : 2,
         "name" : "Deserts",
-        "image" : "image 2",
+        "image" : "assets/desserts.jpg",
         "motivation" : "Sweeten your tooth and your life at Vegado with our exceptional desserts",
         "products" : [
           {
@@ -161,7 +161,7 @@
 
       { "id" : 3,
         "name" : "Drinks",
-        "image" : "image 3",
+        "image" : "assets/drinks.jpg",
         "motivation" : "Try our healthy yet delicious drinks that will refresh your mind",
         "products" : [
           {
