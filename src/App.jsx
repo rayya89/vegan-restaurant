@@ -1,5 +1,5 @@
 //NPM packages
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 
 // Project files
 import NavigationBar from './components/NavigationBar';
@@ -13,18 +13,16 @@ import "./styles/styles.css"
 
 export default function App() {
   return (
-    <Router>
       <div className="App">
         <NavigationBar/>
         <Routes>
           <Route path="/" element={<HomeScreen/>}/>
           <Route path="/:categoryName" element={<CategoryScreen/>}/>
-          <Route path="/product/:categoryName/:productName" element={<ProductScreen/>}/>
+          <Route path="/:categoryName/:productName" element={<ProductScreen/>}/>
           <Route path="/contact" element={<ContactScreen/>}/>
         </Routes>
         <Footer/>
       </div>
-    </Router>
   );
 }
 

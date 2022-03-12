@@ -1,45 +1,26 @@
 import React from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import categories from '../data/categories.json'
+import IngredientList from '../components/IngredientList'
+import NutritionTable from '../components/NutritionTable'
 
 export default function ProductScreen() {
-    const params = useParams();
+    const {categoryName, productName} = useParams();
     const navigate = useNavigate();
-
-    const imgsrc = require(`../assets/pictures/${categories[0].image}`);
-
-    const categoryInfo = categories.filter(category => category.name === params.categoryName);
-    const productInfo = categoryInfo[0].products.filter(product => product.name === params.productName);
-    console.log(productInfo);
+    const categoryInfo = categories.filter(category => category.name === categoryName);
+    const productInfo = categoryInfo[0].products.filter(product => product.name === productName);
+    const imageSrc = require(`../assets/pictures/${productInfo[0].image}`);
+    const ingredientsList = <IngredientList ingredients={productInfo[0].ingredients} />;
+    const nutritionTable = <NutritionTable tableData={productInfo[0].nutritionFacts}/>
 
 
   return (
     <div>
-        <img src={imgsrc} alt="product"/>
-        <h1>{productInfo[0].image}</h1>
+        <img src={imageSrc} alt="product"/>
         <h1>{productInfo[0].name}</h1>
-        <p>{productInfo[0]['long-description']}</p>
-        <section>
-          <h2>Ingredients</h2>
-          <ul>
-            {productInfo[0].ingredients.map(ingredient => 
-              {return (<li key={ingredient}>{ingredient}</li>)})}
-          </ul>
-        </section>
-        <section>
-          <table>
-            <caption>Nutrition Facts</caption>
-            <tbody>
-            <tr><td>Calories</td><td colSpan={2}>{productInfo[0]['nutrition-facts'].calories}</td></tr>
-            <tr><td colSpan={3}>% Daily Value</td></tr>
-            {productInfo[0]['nutrition-facts'].nutrients.map(cell =>
-              {return(
-                <tr><td>{cell.nutrient}</td><td>{cell.amount}</td><td>{cell['daily value']}</td></tr>
-              )}
-              )}
-          </tbody>
-          </table>
-        </section>
+        <p>{productInfo[0].longDescription}</p>
+        {ingredientsList}
+        {nutritionTable}
         <button onClick={() => navigate(-1)}>Go back</button>
 
     </div>

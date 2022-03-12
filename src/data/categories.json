@@ -8,10 +8,10 @@
           "id" : 1,
           "name" : "Creamy Vegan Pasta",
           "shortDescription" : "Luscious creamy vegan pasta with tangy sauce is a protein-packed blend of white beans, nutritional yeast, and lemon juice.",
-          "long-description" : "This creamy vegan pasta will be one of your best choices when craving healthy and delicious food. With its rich sauce, sauté onion, and broccoli, try this super creamy vegan pasta sauce. While this sauce looks like a rich cream or cheese sauce, it’s actually a tangy, luscious blend of white beans, lemon juice, and nutritional yeast. Of course, this creamy vegan pasta sauce is totally dairy-free, but it’s also different than many vegan pasta sauces that you have tried.",
+          "longDescription" : "This creamy vegan pasta will be one of your best choices when craving healthy and delicious food. With its rich sauce, sauté onion, and broccoli, try this super creamy vegan pasta sauce. While this sauce looks like a rich cream or cheese sauce, it’s actually a tangy, luscious blend of white beans, lemon juice, and nutritional yeast. Of course, this creamy vegan pasta sauce is totally dairy-free, but it’s also different than many vegan pasta sauces that you have tried.",
           "image" : "dish1.jpg",
           "ingredients" : ["White beans", "Broccoli", "Pasta", "Lemon juice","Pine nuts"],
-          "nutrition-facts" : {
+          "nutritionFacts" : {
             "calories" : "400",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
@@ -26,10 +26,10 @@
             "id" : 2,
             "name" : "Best Vegan Pizza",
             "shortDescription" : "Who says you need cheese to make a crave-worthy pizza? This vegan pizza will be your all-time favorite! With top chewy pizza dough with a lemony cashew cream sauce, a jumble of savory, spicy, crisp, and juicy veggies, and big handfuls of fresh basil.",
-            "long-description" : "With a lot of veggies tossed together with olive oil, salt, and pepper over the pizza dough, you will enjoy this best vegan pizza ever. Enjoy the bottom edges of the crust nice and crisp with the oozy cashew cream drizzle goes on at the very end. Try it with fresh basil and a sprinkle of red pepper flakes. Slice and devour!",
+            "longDescription" : "With a lot of veggies tossed together with olive oil, salt, and pepper over the pizza dough, you will enjoy this best vegan pizza ever. Enjoy the bottom edges of the crust nice and crisp with the oozy cashew cream drizzle goes on at the very end. Try it with fresh basil and a sprinkle of red pepper flakes. Slice and devour!",
             "image" : "dish2.jpg",
             "ingredients" : ["Broccoli", "Corn", "Sun dried tomato", "Cashew cream", "Basil"],
-            "nutrition-facts" : {
+            "nutritionFacts" : {
             "calories" : "200",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
@@ -44,10 +44,10 @@
             "id" : 3,
             "name" : "Cream of Mushroom Soup",
             "shortDescription" : "This cream of mushroom soup is too good to hide inside any casserole! Instead of nuts or dairy, its super creamy texture comes from blended cauliflower.",
-            "long-description" : "This cream of mushroom soup recipe is rich, creamy, and deeply savory, but it’s not entirely traditional. Instead of stirring in cream to achieve its luscious texture, we sneak a secret veggie ingredient into the soup: cauliflower. The cauliflower makes it amazingly smooth and creamy. You won’t miss the dairy one bit!",
+            "longDescription" : "This cream of mushroom soup recipe is rich, creamy, and deeply savory, but it’s not entirely traditional. Instead of stirring in cream to achieve its luscious texture, we sneak a secret veggie ingredient into the soup: cauliflower. The cauliflower makes it amazingly smooth and creamy. You won’t miss the dairy one bit!",
             "image" : "dish3.jpg",
             "ingredients" : ["Mushrooms", "Cauliflower", "Leeks", "Thyme","Dijon mustard"],
-            "nutrition-facts" : {
+            "nutritionFacts" : {
             "calories" : "150",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
@@ -62,10 +62,10 @@
             "id" : 4,
             "name" : "Sesame Soba Noodles",
             "shortDescription" : "These super fresh soba noodles are the perfect lunch. With this version with watermelon radishes and snap peas, the light, tangy sesame dressing pairs well with all sorts of veggies.",
-            "long-description" : "We have a fresh, delicious bowl of soba noodles to help your day in a healthy direction. The best thing about this bowl is its colors yet has a great zippy flavor. There’s a light sesame-ginger dressing that perfectly coats the soba noodles. On top of that, we mix in a group of vibrant spring veggies.",
+            "longDescription" : "We have a fresh, delicious bowl of soba noodles to help your day in a healthy direction. The best thing about this bowl is its colors yet has a great zippy flavor. There’s a light sesame-ginger dressing that perfectly coats the soba noodles. On top of that, we mix in a group of vibrant spring veggies.",
             "image" : "dish4.jpg",
             "ingredients" : ["Avocado", "Noodles", "Raddish","Watermelon","Peas"],
-            "nutrition-facts" : {
+            "nutritionFacts" : {
             "calories" : "250",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
@@ -88,10 +88,10 @@
             "id" : 1,
             "name" : "Pistachio Oat Squares",
             "shortDescription" : "How about some crispy, toasty, lightly sweet treats with pistachio and oat. What are you waiting for?!",
-            "long-description" : "This is a perfect “snack” and dessert to cheer you up! They’re simply addictive! It looks so pretty and tastes extremely delicious with pistachios. Don't wait if you’re craving a moderately sweet, nutty, oaty dessert!",
+            "longDescription" : "This is a perfect “snack” and dessert to cheer you up! They’re simply addictive! It looks so pretty and tastes extremely delicious with pistachios. Don't wait if you’re craving a moderately sweet, nutty, oaty dessert!",
             "image" : "dessert1.jpg",
             "ingredients" : ["Oats", "Pistachios", "Coconut flakes", "Maple syrup","Olive oil"],
-            "nutrition-facts" : {
+            "nutritionFacts" : {
             "calories" : "100",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
@@ -106,10 +106,10 @@
               "id" : 2,
               "name" : "Creamy Butternut Squash Pudding",
               "shortDescription" : "Cinnamon, nutmeg, ginger, and maple syrup infuse it with warm, spiced flavor, and coconut cream makes it rich and velvety.",
-              "long-description" : "This yummy pudding is creamy and oh so pumpkin-like, but it’s made with freshly roasted squash. It’s super tasty. Cinnamon, nutmeg, ginger, and maple syrup infuse it with warm, spiced flavor, and coconut cream makes it rich and velvety. It’s ten times better than pumpkin pie.",
+              "longDescription" : "This yummy pudding is creamy and oh so pumpkin-like, but it’s made with freshly roasted squash. It’s super tasty. Cinnamon, nutmeg, ginger, and maple syrup infuse it with warm, spiced flavor, and coconut cream makes it rich and velvety. It’s ten times better than pumpkin pie.",
               "image" : "dessert2.jpg",
               "ingredients" : ["Butternut", "Coconut cream", "Coconut oil","Cinnamon","Ginger"],
-              "nutrition-facts" : {
+              "nutritionFacts" : {
             "calories" : "200",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
@@ -124,10 +124,10 @@
               "id" : 3,
               "name" : "Raspberry Vegan Cheesecake",
               "shortDescription" : "A tart raspberry layer, a creamy lemon layer, and a toasty walnut crust make this vegan dessert fresh, decadent, and so, so good.",
-              "long-description" : "With raw cashews for the white cheesecake layer, this cheesecake tastes different! you will love this cashew version. It has a fresh taste that you will really like. A top of a fresh raspberry layer inspired by raspberry chia jam.",
+              "longDescription" : "With raw cashews for the white cheesecake layer, this cheesecake tastes different! you will love this cashew version. It has a fresh taste that you will really like. A top of a fresh raspberry layer inspired by raspberry chia jam.",
               "image" : "dessert3.jpg",
               "ingredients" : ["Raspberry", "Cashews", "Dates", "Walnut", "Coconut milk"],
-              "nutrition-facts" : {
+              "nutritionFacts" : {
             "calories" : "300",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
@@ -142,10 +142,10 @@
               "id" : 4,
               "name" : "Vegan Chocolate Cake",
               "shortDescription" : "It’s moist, fudgy, and topped with luscious chocolate frosting, but wholesome ingredients are hiding inside it.",
-              "long-description" : "This vegan chocolate cake tastes rich and decadent, but secretly, it’s healthy. Healthy for a cake as we swap maple syrup for refined sugar and use a mix of white and whole wheat flour in the cake. Last but not least, we make the rich frosting with a secret veggie ingredient: sweet potato!",
+              "longDescription" : "This vegan chocolate cake tastes rich and decadent, but secretly, it’s healthy. Healthy for a cake as we swap maple syrup for refined sugar and use a mix of white and whole wheat flour in the cake. Last but not least, we make the rich frosting with a secret veggie ingredient: sweet potato!",
               "image" : "dessert4.jpg",
               "ingredients" : ["Almond milk", "Sweet potato", "Coconut oil", "Cinnamon","Unsweetened cocoa powder"],
-              "nutrition-facts" : {
+              "nutritionFacts" : {
             "calories" : "400",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
@@ -168,10 +168,10 @@
             "id" : 1,
             "name" : "Creamy Pink Lemonade",
             "shortDescription" : "Is pink lemonade made with pink lemons? Not necessarily. Although they do exist, we are creating this creamy pink lemonade with a vegan twist.",
-            "long-description" : "If you need a refreshing and sweet drink to remind you of that perfect warm afternoon in the sun, this drink is made just for you. This blend of the creamy, sour and sweet recipe uses only 6 ingredients! Pink lemonade is typically made with condensed milk to get that creamy-sweetness, but we will be replacing this with a vegan half & half or cashew cream. The creamy texture is a nolstalgic summertime drink.",
+            "longDescription" : "If you need a refreshing and sweet drink to remind you of that perfect warm afternoon in the sun, this drink is made just for you. This blend of the creamy, sour and sweet recipe uses only 6 ingredients! Pink lemonade is typically made with condensed milk to get that creamy-sweetness, but we will be replacing this with a vegan half & half or cashew cream. The creamy texture is a nolstalgic summertime drink.",
             "image" : "drink1.jpg",
             "ingredients" : ["Lemon", "Cashew cream", "Raspberries","Mapel syrup","Vanilla"],
-            "nutrition-facts" : {
+            "nutritionFacts" : {
             "calories" : "75",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
@@ -186,10 +186,10 @@
               "id" : 2,
               "name" : "Orange Light Juice",
               "shortDescription" : "Oranges, bananas, and bok choy! You read that right, BOK CHOY! Although it’s not as famous of a juice ingredient as orange juice, bok choy brings it all together",
-              "long-description" : "Oranges juice with bananas and bok choy brings almost all the essential vitamins, minerals, and dietary fibre needed for daily consumption. The banana in this recipe brings the potassium to the table while lowering blood pressure. But the star of this show is the oranges, and in conjunction with bok choy and banana, this is superfood juice.",
+              "longDescription" : "Oranges juice with bananas and bok choy brings almost all the essential vitamins, minerals, and dietary fibre needed for daily consumption. The banana in this recipe brings the potassium to the table while lowering blood pressure. But the star of this show is the oranges, and in conjunction with bok choy and banana, this is superfood juice.",
               "image" : "drink2.jpg",
               "ingredients" : ["Oranges", "Bok choy", "Bananas"],
-              "nutrition-facts" : {
+              "nutritionFacts" : {
             "calories" : "200",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
@@ -204,10 +204,10 @@
               "id" : 3,
               "name" : "Beet Apple Juice",
               "shortDescription" : "It’s all about the beets. Beets are a serious immune booster, and contain several essential minerals to promote optimal health.",
-              "long-description" : "This a powerful antioxidant and will definitely help to clean out your insides. The apples are an excellent source of fibre, and may help to fight against diabetes, heart disease and hypertension. The lemon provides magnesium, potassium, copper and all the vitamin C you need for the day.",
+              "longDescription" : "This a powerful antioxidant and will definitely help to clean out your insides. The apples are an excellent source of fibre, and may help to fight against diabetes, heart disease and hypertension. The lemon provides magnesium, potassium, copper and all the vitamin C you need for the day.",
               "image" : "drink3.jpg",
               "ingredients" : ["Beets", "Apples", "Lemons"],
-              "nutrition-facts" : {
+              "nutritionFacts" : {
             "calories" : "100",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
@@ -222,10 +222,10 @@
               "id" : 4,
               "name" : "Vegan Biscoff Latte",
               "shortDescription" : "There is something about a nice, warm cup of latte that brings so much joy throughout the day. If you live in Sweden, you know how crazy the winter storms can get.",
-              "long-description" : "Biscoff Latte is a smooth, bittersweet latte made with sweet, caramelized cookie butter, espresso, and foamed milk. It is made to drink hot. This biscoff latte is the perfect way to start your day with the smell of coffee and cookies in a cup. You will not be able to get enough of these creamy, sweet, cookie butter coffee.",
+              "longDescription" : "Biscoff Latte is a smooth, bittersweet latte made with sweet, caramelized cookie butter, espresso, and foamed milk. It is made to drink hot. This biscoff latte is the perfect way to start your day with the smell of coffee and cookies in a cup. You will not be able to get enough of these creamy, sweet, cookie butter coffee.",
               "image" : "drink4.jpg",
               "ingredients" : ["Oat Milk", "Espresso", "Coconut sugar","Cinnamon"],
-              "nutrition-facts" : {
+              "nutritionFacts" : {
             "calories" : "150",
             "nutrients" : [
               {"nutrient" : "Total Fat", "amount" : "9g", "daily value": "13%"},
