@@ -6,11 +6,16 @@ export default function ProductScreen() {
     const params = useParams();
     const navigate = useNavigate();
 
+    const imgsrc = require(`../assets/pictures/${categories[0].image}`);
+
     const categoryInfo = categories.filter(category => category.name === params.categoryName);
     const productInfo = categoryInfo[0].products.filter(product => product.name === params.productName);
-    
+    console.log(productInfo);
+
+
   return (
     <div>
+        <img src={imgsrc} alt="product"/>
         <h1>{productInfo[0].image}</h1>
         <h1>{productInfo[0].name}</h1>
         <p>{productInfo[0]['long-description']}</p>

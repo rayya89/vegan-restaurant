@@ -16,7 +16,3 @@ button:hover {
   color: var(--color-secondary);
   border: none;
 }
-
-.button-secondary:hover {
-  color: var(--swatch-green-dark);
-}

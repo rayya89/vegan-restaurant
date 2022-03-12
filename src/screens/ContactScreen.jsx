@@ -1,8 +1,10 @@
 import React from 'react'
-import OwnerImage from "../assests/owner.jpg";
-import MapImage from "../assests/map.jpg"
 
 export default function ContactScreen() {
+
+    const OwnerImage = require("../assets/pictures/owner.jpg");
+    const MapImage = require("../assets/pictures/map.jpg");
+
   return (
     <div className='contact-screen'>
         <img src={OwnerImage} alt="the owner of this restaurant"/>

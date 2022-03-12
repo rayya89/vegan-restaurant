@@ -8,6 +8,7 @@
 @import "./components/button.css";
 @import "./components/NavigationBar.css";
 @import "./components/Footer.css";
+@import "./components/Category.css";
 
 /* Screens */
 @import "./screens/ContactScreen.css";
