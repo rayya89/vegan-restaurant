@@ -11,7 +11,7 @@ export default function Category({ categoryInfo }) {
 
   return (
         <div className={`category-container ${id===2 ? "category-flip": ""}`}>
-            <img src={imageSrc} alt="category thumbnail"/>
+            <img src={imageSrc} onClick={() => navigate(`${name}`)} alt="category thumbnail"/>
             <section className='category-detail'>
             <h2>{name}</h2>
             <p>{motivation}</p>

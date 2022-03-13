@@ -1,7 +1,3 @@
-.home-screen {
-  padding: var(--space-medium) var(--space-big);
-}
-
 .home-screen .hero {
   background-image: url("../../assets/pictures/hero.jpg");
   background-repeat: no-repeat;
@@ -32,4 +28,14 @@
   top: 50%;
   left: 25%;
   transform: translate(-50%, -50%);
+}
+
+@media (min-width: 750px) {
+  .home-screen h1 {
+    font-size: 90px;
+  }
+
+  .home-screen h3 {
+    font-size: 30px;
+  }
 }

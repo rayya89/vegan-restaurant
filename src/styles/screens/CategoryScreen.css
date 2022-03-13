@@ -1,7 +1,3 @@
-.category-screen {
-  padding: var(--space-medium) var(--space-big);
-}
-
 .category-title {
   background-color: var(--swatch-grey);
   border-radius: var(--border-radius);

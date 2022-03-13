@@ -1,10 +1,6 @@
-.contact-screen {
-  padding: var(--space-medium) var(--space-big);
-}
-
 .contact-screen img,
 .contact-screen section {
-  margin-bottom: var(--space-medium);
+  margin-bottom: var(--space-big);
 }
 
 .contact-screen h3 {

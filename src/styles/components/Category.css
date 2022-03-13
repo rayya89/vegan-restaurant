@@ -12,6 +12,12 @@
   object-fit: cover;
   align-self: center;
   justify-content: stretch;
+  transition: all 0.2s ease-in-out;
+}
+
+.category-container img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .category-detail {
@@ -32,4 +38,10 @@ h2 {
 
 .category-flip {
   flex-direction: row-reverse;
+}
+
+@media (min-width: 750px) {
+  .category-detail p {
+    padding: 0 var(--space-ultra);
+  }
 }

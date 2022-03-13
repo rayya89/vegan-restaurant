@@ -10,6 +10,13 @@ body {
   height: 100%;
 }
 
+.product-screen,
+.contact-screen,
+.home-screen,
+.product-screen {
+  padding: var(--space-medium) var(--space-big);
+}
+
 .App {
   box-sizing: border-box;
 }
@@ -30,4 +37,14 @@ li {
 
 .text-link:hover {
   color: var(--color-secondary);
+}
+
+@media (min-width: 750px) {
+  .product-screen,
+  .contact-screen,
+  .home-screen,
+  .product-screen {
+    max-width: 960px;
+    margin: 0 auto;
+  }
 }

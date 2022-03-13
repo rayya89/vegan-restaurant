@@ -82,7 +82,7 @@
     {   "id" : 2,
         "name" : "Deserts",
         "image" : "desserts.jpg",
-        "motivation" : "Sweeten your tooth and your life at Vegado with our exceptional desserts",
+        "motivation" : "Sweeten your tooth and your day at Vegado with our exceptional desserts",
         "products" : [
           {
             "id" : 1,
