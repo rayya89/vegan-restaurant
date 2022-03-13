@@ -3,26 +3,41 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-footer p {
   color: var(--color-primary);
 }
-/* footer article {
+
+footer section {
   display: flex;
   flex-direction: column;
-  background-color: yellow;
   justify-content: center;
-}
-
-.social-media ul {
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-flow: row;
 }
 
 .contact {
   justify-self: center;
-} */
+}
+
+.contact li {
+  display: flex;
+}
+
+.contact-icon {
+  padding: 4px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.social-media li {
+  padding: 4px;
+  display: block;
+}
