@@ -9,7 +9,12 @@
 @import "./components/NavigationBar.css";
 @import "./components/Footer.css";
 @import "./components/Category.css";
+@import "./components/Product.css";
+@import "./components/IngredientList.css";
+@import "./components/NutritionTable.css";
 
 /* Screens */
 @import "./screens/ContactScreen.css";
 @import "./screens/HomeScreen.css";
+@import "./screens/CategoryScreen.css";
+@import "./screens/ProductScreen.css";

@@ -11,7 +11,13 @@ button:hover {
   background-color: var(--swatch-green-dark);
 }
 
+.button-secondary:hover {
+  background-color: none;
+  color: var(--color-text);
+}
+
 .button-secondary {
+  height: 25px;
   background: none;
   color: var(--color-secondary);
   border: none;

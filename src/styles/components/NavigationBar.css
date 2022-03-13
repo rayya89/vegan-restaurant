@@ -1,20 +1,15 @@
 nav img {
   width: 53px;
+  height: fit-content;
+  padding-left: var(--space-ultra);
+  padding-top: var(--space-small);
 }
 
-nav .text-link {
-  color: var(--color-text);
-}
-
-nav .text-link:hover {
-  color: var(--color-secondary);
-}
-
-nav {
+/* nav {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--swatch-grey);
-  padding: var(--space-small);
+  padding: 0;
 }
 
 nav ul {
@@ -22,4 +17,21 @@ nav ul {
   justify-content: space-around;
   flex-grow: 2;
   align-items: baseline;
+} */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  margin: 0;
+  padding-right: var(--space-ultra);
+  display: flex;
+}
+
+nav li {
+  padding: var(--space-small);
+  display: block;
 }

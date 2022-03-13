@@ -23,3 +23,11 @@ img {
 li {
   list-style: none;
 }
+
+.text-link {
+  color: var(--color-text);
+}
+
+.text-link:hover {
+  color: var(--color-secondary);
+}

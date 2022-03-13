@@ -2,7 +2,7 @@
 export default function IngredientList({ ingredients }) {
 
   return (
-     <section>
+     <section className="ingredient-list">
           <h2>Ingredients</h2>
           <ul>
             {ingredients.map(ingredient => 

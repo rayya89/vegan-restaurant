@@ -2,7 +2,7 @@
 export default function NutritionTable({ tableData }) {
 
   return (
-    <section>
+    <section className="nutrition-table">
           <table>
             <caption>Nutrition Facts</caption>
               <tbody>

@@ -10,7 +10,8 @@ h1 {
   line-height: 1.5;
 }
 
-h2 {
+h2,
+caption {
   font-size: 22px;
   line-height: 1.5;
 }
@@ -20,8 +21,9 @@ h3 {
 }
 
 p,
-li {
-  font-size: 14px;
+li,
+table {
+  font-size: 12px;
   line-height: 1.6;
 }
 

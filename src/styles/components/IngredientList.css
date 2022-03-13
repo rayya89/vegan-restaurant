@@ -1,0 +1,7 @@
+.ingredient-list ul {
+  margin-top: 0;
+  padding: 0 var(--space-ultra);
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: var(--space-big);
+}

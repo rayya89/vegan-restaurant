@@ -22,9 +22,9 @@ export default function ProductScreen() {
 
 
   return (
-    <div>
+    <div className="product-screen">
         <img src={imageSrc} alt="product"/>
-        <h1>{productInfo[0].name}</h1>
+        <h2>{productInfo[0].name}</h2>
         <p>{productInfo[0].longDescription}</p>
         {ingredientsList}
         {nutritionTable}
