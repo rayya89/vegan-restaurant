@@ -1,11 +1,12 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import categories from '../data/categories.json'
 import ProductList from '../components/ProductList';
+import getCategoryByName from '../scripts/getCategoryByName';
 
 export default function CategoryScreen( ) {
     const { categoryName } = useParams();
-    const categoryInfo = categories.filter(category => category.name === categoryName);
+    // const categoryInfo = categories.filter(category => category.name === categoryName);
+    const categoryInfo = getCategoryByName(categoryName);
 
     const categoryProducts = categoryInfo[0].products.map((productList)=> <ProductList key={productList.id} productList={ productList }/>)
 

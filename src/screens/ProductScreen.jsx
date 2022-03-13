@@ -1,13 +1,13 @@
 import React from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import categories from '../data/categories.json'
 import IngredientList from '../components/IngredientList'
 import NutritionTable from '../components/NutritionTable'
+import getCategoryByName from '../scripts/getCategoryByName'
 
 export default function ProductScreen() {
     const {categoryName, productName} = useParams();
     const navigate = useNavigate();
-    const categoryInfo = categories.filter(category => category.name === categoryName);
+    const categoryInfo = getCategoryByName(categoryName);
     const productInfo = categoryInfo[0].products.filter(product => product.name === productName);
     const imageSrc = require(`../assets/pictures/${productInfo[0].image}`);
     const ingredientsList = <IngredientList ingredients={productInfo[0].ingredients} />;
