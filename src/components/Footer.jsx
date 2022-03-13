@@ -10,9 +10,9 @@ export default function Footer() {
             <section className="social-media">
                 <small>Follow us</small>
                 <ul>
-                    <li><FontAwesomeIcon icon={faTwitter}/></li>
-                    <li><FontAwesomeIcon icon={faInstagram}/></li>
-                    <li><FontAwesomeIcon icon={faFacebook}/></li>
+                    <li><FontAwesomeIcon className="brand-icon" icon={faTwitter}/></li>
+                    <li><FontAwesomeIcon className="brand-icon" icon={faInstagram}/></li>
+                    <li><FontAwesomeIcon className="brand-icon" icon={faFacebook}/></li>
                 </ul>
             </section>
             <section className="contact">

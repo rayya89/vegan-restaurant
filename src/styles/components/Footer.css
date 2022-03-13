@@ -20,8 +20,10 @@ footer section {
   display: flex;
 }
 
-.contact-icon {
+.contact-icon,
+.brand-icon {
   padding: 4px;
+  color: var(--color-secondary);
 }
 
 .social-media {
