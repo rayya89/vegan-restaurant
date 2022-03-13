@@ -1,10 +1,11 @@
-import React from 'react'
-import categories from '../data/categories.json'
+//Project files
+import restaurantData from '../data/restaurantData.json'
 import Category from '../components/Category'
 
 export default function HomeScreen() {
 
-  const Catigories = categories.map((categoryInfo)=> <Category key={categoryInfo.id} categoryInfo={categoryInfo}/>);
+  //Components
+  const Catigories = restaurantData.map((categoryInfo)=> <Category key={categoryInfo.id} categoryInfo={categoryInfo}/>);
 
   return(
     <div className='home-screen'>

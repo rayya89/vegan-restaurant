@@ -1,11 +1,13 @@
-import React from 'react'
+//NPM packages
 import { useNavigate } from 'react-router-dom'
+import getImage from '../scripts/getImage';
 
 export default function Category({ categoryInfo }) {
-
     const { name, image, motivation } = categoryInfo;
-    const imageSrc = require(`../assets/pictures/${image}`);
+    
+    //Properties
     const navigate= useNavigate();
+    const imageSrc = getImage(image);
 
   return (
         <div className="category-info">

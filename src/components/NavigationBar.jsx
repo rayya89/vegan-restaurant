@@ -1,16 +1,20 @@
-import React from 'react'
+//NPM Packages
 import { Link } from 'react-router-dom'
-import categories from '../data/categories.json'
+import getImage from '../scripts/getImage';
+
+//Project files
+import restaurantData from '../data/restaurantData.json'
 
 export default function NavigationBar() {
 
-  const LogoImage = require("../assets/pictures/Logo.png");
+  //Properties
+  const LogoImage = getImage("Logo.png");
 
   return (
     <nav>
         <Link to="/"><img src={LogoImage} alt="logo"/></Link>
         <ul>
-        {categories.map(category => (
+        {restaurantData.map(category => (
           <Link key={category.id} className="text-link" to={`${category.name}`}><li key={category.id}>{category.name}</li></Link>
         ))}
             <Link className="text-link" to="/contact"><li>Contact us</li></Link>

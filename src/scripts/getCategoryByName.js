@@ -1,4 +1,4 @@
-import restaurantData from '../data/categories.json'
+import restaurantData from '../data/restaurantData.json'
 
 export default function getCategoryByName(categoryName) {
   return (

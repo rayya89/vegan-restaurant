@@ -1,11 +1,14 @@
-import React from 'react'
+//NPM packages
 import { Link, useLocation } from 'react-router-dom'
+import getImage from '../scripts/getImage';
 
 export default function ProductList( { productList }) {
 
     const { name, shortDescription, image } = productList;
-    const imageSrc = require(`../assets/pictures/${image}`);
+
+    //Properties
     const location = useLocation();
+    const imageSrc = getImage(image);
 
     return (
              <div>

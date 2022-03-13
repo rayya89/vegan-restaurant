@@ -1,9 +1,11 @@
-import React from 'react'
+//Project files
+import getImage from '../scripts/getImage';
 
 export default function ContactScreen() {
 
-    const OwnerImage = require("../assets/pictures/owner.jpg");
-    const MapImage = require("../assets/pictures/map.jpg");
+    //Properties
+    const OwnerImage = getImage("owner.jpg");
+    const MapImage = getImage("map.jpg");
 
   return (
     <div className='contact-screen'>
