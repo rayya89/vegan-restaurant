@@ -24,8 +24,8 @@ export default function ProductScreen() {
   //Components
   // Incorrect use of a component -1
   // You arent looping here, thus just use the components directly, see refactor Below
-  const ingredientsList;
-  const nutritionTable;
+  // const ingredientsList;
+  // const nutritionTable;
 
   return (
     <div className="product-screen">
