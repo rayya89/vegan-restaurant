@@ -1,6 +1,6 @@
 nav img {
-  width: 53px;
-  height: fit-content;
+  width: 45px;
+  height: 55px;
   padding-left: var(--space-small);
   padding-top: var(--space-small);
 }
@@ -26,6 +26,7 @@ nav li {
   nav img {
     padding-left: var(--space-ultra);
     width: 80px;
+    height: 90px;
   }
   nav ul {
     padding-right: var(--space-ultra);
